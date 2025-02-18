@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+section {
+    padding: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+section .cot1 div {
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 30px;
+}
+
+section .cot2 .a {
+    opacity: 0.5;
+    color: black;
+}
+
+
+
+section .cot1 {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 2;
+}
+
+
+section .cot2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+section .cot3 {
+    margin-left: 100px;
+    background-color: rgb(141 147 158);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+
+}

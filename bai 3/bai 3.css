@@ -1,0 +1,42 @@
+section {
+    display: flex;
+    flex-direction: column;
+  
+}
+section .cot1{
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+}
+
+section .anh img {
+    height: 400px;
+    width: 600px;
+    position: relative;
+}
+section .cot1 img {
+    width: 30px;
+    height: 30px;
+    border-radius: 360px;
+}
+section .cot1 {
+        display: flex;
+        flex-direction: row;
+}
+
+section .cot4 p {
+    opacity: 0.5;
+}
+button {  
+    border: none ;
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+}
